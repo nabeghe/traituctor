@@ -6,7 +6,7 @@
         "library", "helper", "support"
     ],
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/nabeghe/traituctor",
     "license": "MIT",
     "autoload": {
@@ -23,7 +23,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "nabeghe/reflecty": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "9.6"
