@@ -1,27 +1,23 @@
 {
     "name": "nabeghe/traituctor",
     "description": "Invoking a pseudo constructor for each trait from within the main constructor.",
-    "keywords": [
-        "trait", "trait helper", "trait constructor", "constructor", "construct", "pseudo constructor", "reflection",
-        "library", "helper", "support"
-    ],
+    "keywords": ["construct", "constructor", "helper", "library", "pseudo constructor", "reflection", "support", "trait", "trait constructor", "trait helper"],
     "type": "library",
-    "version": "0.1.1",
     "homepage": "https://github.com/nabeghe/traituctor",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Hadi Akbarzadeh",
+            "email": "elsiomcoder@gmail.com",
+            "homepage": "https://elatel.ir",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Nabeghe\\Traituctor\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Hadi Akbarzadeh",
-            "email": "hadicoder@gmail.com",
-            "homepage": "https://elatel.ir",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": ">=7.4",
         "nabeghe/reflecty": "*"

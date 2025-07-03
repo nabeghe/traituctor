@@ -1,4 +1,4 @@
-# Traituctor (pseudo-constructor for php traits)
+# Traituctor: Traits Pseudo-Constructor for PHP ≥ 7.4
 
 > Invoking a pseudo constructor for each trait from within the main constructor.
 
@@ -19,8 +19,6 @@ ensuring that the pseudo-constructor of a required trait is executed before its 
 Alternatively, you could omit this attribute and simply use the traits in the desired order in the main class,
 but the attribute guarantees the correct sequence.
 
-<hr>
-
 ## 🫡 Usage
 
 ### 🚀 Installation
@@ -30,8 +28,6 @@ You can install the package via composer:
 ```bash
 composer require nabeghe/traituctor
 ```
-
-<hr>
 
 ### Examples
 
@@ -141,10 +137,6 @@ echo (new Main(10))->multiply();
 // 182
 ```
 
-<hr>
-
 ## 📖 License
-
-Copyright (c) 2024 Hadi Akbarzadeh
 
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.
